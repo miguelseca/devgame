@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Economica|Roboto+Condensed');
+
+.form {
+  height: 25px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+
+
+.Gallery {
+  margin: 10px;
+}
+
+.gallery > img {
+  width: 400px;
+  height: 25s0px;
+  z-index: -1;
+  opacity: 0.8;
+  object-fit: cover;
+}
+
+.multiform {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.multiform > div > input {
+  width: 40px;
+  font-size: 12px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.multiform > div {
+  float: left;
+}
+
+.task-list {
+  cursor: pointer;
+}
+
+.completed-list {
+  color: grey;
+}
+
+.delete-task {
+  color: black;
+  cursor: pointer;
+}
+
+.matrix > img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
