@@ -1,36 +1,52 @@
+# Dev Game
+Welcome to Dev Game, a project consisting of multiple mini-projects designed to help you master React Hooks development. This project is part of the React Hooks Tutorial - Master React Hooks Development course, and each mini-project demonstrates different uses of React Hooks in real-world scenarios.
+
+- **Table of Contents**
+- About the Project
+- Mini Projects
+- Installation
+- Technologies Used
+- Acknowledgements
+
+---
+
+## About the Project
+
+Dev Game is a collection of mini-games and applications built using modern React practices, with a focus on React Hooks. These projects serve as practical exercises to help learners understand and implement the following concepts:
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+- useState for managing state in function components
+- useEffect for handling side effects like fetching data
+- useContext for managing global state
+- useReducer for handling complex state logic
+- useMemo and useCallback for performance optimization
+- Whether you are looking to sharpen your React skills or are a beginner in the world of hooks, this project has something for everyone!
 
-First, run the development server:
+## Mini Projects
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The course is broken down into several small projects, each targeting specific React Hooks. Some of the projects include:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Todo Project: A task management app utilizing useState and useEffect (/tasks).
+- Image Gallery: A simple image gallery section built using useContext for theme toggling (/gallery).
+- Jokes API: An app that fetches and displays jokes from a public API using useEffect (/jokes).
+- Dev Game: This main project is still under development.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Each project is designed to be a standalone feature, allowing you to explore each React Hook independently.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+This project is built using modern web development technologies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js: A powerful React framework that provides server-side rendering and static site generation.
+Tailwind CSS: A utility-first CSS framework for rapidly building custom user interfaces.
+NextUI: A React UI library that provides beautiful, customizable components for building modern interfaces quickly.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Acknowledgements
+
+This project is part of the React Hooks Tutorial - Master React Hooks Development course. Special thanks to the course creators and contributors for their efforts in making React learning accessible and engaging!
