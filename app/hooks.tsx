@@ -22,3 +22,32 @@ export const useFetch = (url: string) => {
 
   return { loading: loading, result: result };
 };
+
+
+interface useDynamicTransitionProps {
+  increment: number;
+  delay: number;
+  length: number;
+};
+
+export const useDynamicTransition = (props: useDynamicTransitionProps) => {
+
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setIndex((storedIndex) => {
+        return (storedIndex + props.increment) % props.length; 
+            });
+    }, props.delay);
+
+    // isto corresponde a um unmount: return um a callback function
+    return () => {
+      console.log("remove interval");
+      clearInterval(intervalId);
+    };
+  }, [props.delay, props.increment]);
+
+  return index;
+
+}

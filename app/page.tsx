@@ -4,7 +4,7 @@ export default function Home() {
     
     <div className="flex">
 
-      <h1>HOME</h1>
+      <h1>HOMEPAGE</h1>
     </div>
   );
 }

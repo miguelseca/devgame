@@ -3,7 +3,6 @@ import Link from "next/link";
 import React from "react";
 import { useState, useEffect } from "react";
 import { Button, ButtonGroup } from "@nextui-org/button";
-import { stringify } from "querystring";
 
 const TASKS_STORAGE_KEY = "TASKS_STORAGE_KEY";
 const COMPLETED_TASKS_STORAGE_KEY = "COMPLETED_TASKS_STORAGE_KEY";
@@ -65,7 +64,7 @@ export default function Options() {
         <div className="form border-gray-400">
           <input value={taskText} onChange={updateTaskText}></input>
           <Button onClick={addTask} color="primary">
-            Search
+            Add Task
           </Button>
         </div>
 
